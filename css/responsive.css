@@ -1,0 +1,56 @@
+@media (min-width: 320px) {
+    body {
+        background-image: url("../images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    div#card {
+        width: 300px;
+    }
+
+    p {
+        margin: 20px 0px 20px 0px;
+    }
+}
+
+@media (min-width: 481px) {
+    div#card {
+        width: 460px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    button#bchange {
+        font-size: 0.9em;
+    }
+
+    button#bpay {
+        padding: 15px 70px 15px 70px;
+        font-size: 1.1em;
+    }
+
+    button#bcancel {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width:1025px) {
+    button#bchange:hover{
+        color: hsl(224, 77%, 60%);
+    }
+
+    button#bpay:hover{
+        background-color: hsl(224, 77%, 60%);
+    }
+    
+    button#bcancel:hover {
+        color: hsl(223, 47%, 23%);
+    }
+}
